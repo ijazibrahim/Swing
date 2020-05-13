@@ -8,7 +8,6 @@ import java.awt.event.*;
 */
 public class Big extends JApplet 
 {	
-	
 	JTextField jt,jt1,jt2;
 	JLabel jl,j;
 	JButton jb;
@@ -45,9 +44,6 @@ public class Big extends JApplet
 		add(jt2);
 		add(jb);
 		add(jl);
-	
-	
-	
 	jb.addActionListener(new ActionListener()
 	{
 		public void actionPerformed(ActionEvent ae)
@@ -69,10 +65,6 @@ public class Big extends JApplet
 			jl.setText("c is largest number");
 			}
 		}
-		
-		
 		});
-	
-	
 }
 }
