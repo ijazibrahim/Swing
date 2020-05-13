@@ -1,6 +1,14 @@
 # Swing
 
-
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+/*
+<applet code="Big" width=500 height=500>
+</applet>
+*/
+public class Big extends JApplet 
+{	
 	
 	JTextField jt,jt1,jt2;
 	JLabel jl,j;
@@ -69,3 +77,5 @@
 	
 }
 }
+
+	
