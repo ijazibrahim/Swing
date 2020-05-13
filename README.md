@@ -1,7 +1,6 @@
 # Swing
 
-public class Big extends JApplet 
-{	
+
 	
 	JTextField jt,jt1,jt2;
 	JLabel jl,j;
